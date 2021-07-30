@@ -26,7 +26,7 @@ class Ui_Form(object):
         self.textEdit = QtWidgets.QTextEdit(Form)
         self.textEdit.setGeometry(QtCore.QRect(600, 90, 171, 31))
         self.textEdit.setObjectName("textEdit")
-        angle = (self.textEdit.toPlainText())
+        
 
         self.textEdit_2 = QtWidgets.QTextEdit(Form)
         self.textEdit_2.setGeometry(QtCore.QRect(600, 130, 171, 31))
@@ -80,10 +80,6 @@ class Ui_Form(object):
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
     
-    def angle(self,angle):
-        pass
-    def length(self,length):
-        pass
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
