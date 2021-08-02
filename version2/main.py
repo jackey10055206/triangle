@@ -12,7 +12,6 @@ class Main(QMainWindow, ui.Ui_Form):
         super().__init__()
         self.setupUi(self)
         
-
         self.btn_cal.clicked.connect(self.CalNum)
         self.btn_reset.clicked.connect(self.Reset)
     def CalNum(self):
