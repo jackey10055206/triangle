@@ -41,10 +41,12 @@ class Ui_Form(object):
         self.input_angle = QtWidgets.QLineEdit(Form)
         self.input_angle.setGeometry(QtCore.QRect(690, 210, 161, 31))
         self.input_angle.setObjectName("input_angle")
+        self.input_angle.setFont(font)
 
         self.input_length = QtWidgets.QLineEdit(Form)
         self.input_length.setGeometry(QtCore.QRect(730, 270, 121, 31))
         self.input_length.setObjectName("input_length")
+        self.input_length.setFont(font)
 
         self.btn_cal = QtWidgets.QPushButton(Form)
         self.btn_cal.setGeometry(QtCore.QRect(430, 330, 121, 51))
@@ -71,6 +73,7 @@ class Ui_Form(object):
         self.textBrowser = QtWidgets.QTextBrowser(Form)
         self.textBrowser.setGeometry(QtCore.QRect(750, 410, 101, 31))
         self.textBrowser.setObjectName("textBrowser")
+        self.textBrowser.setFont(font)
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
